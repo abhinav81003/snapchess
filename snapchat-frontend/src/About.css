@@ -4,3 +4,10 @@ div {
     background-color: rgb(217, 207, 235);
     font-family: 'Lexend', sans-serif;
 }
+
+h1 {
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    font-size: 6vh;
+    margin-bottom: 18vh;
+}

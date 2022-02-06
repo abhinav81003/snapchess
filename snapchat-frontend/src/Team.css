@@ -22,8 +22,7 @@ h1 {
 
 .team-photo {
     margin-top: -10vw;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
     height: auto;
     z-index: 1;
 }
