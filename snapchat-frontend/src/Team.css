@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Red+Hat+Display&display=swap');
+
+h1 {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 6vh;
+    margin-bottom: 18vh;
+}
+
+.top-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 12vh;
+}
+
+.bottom-row {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 12vh;
+}
+
+.team-photo {
+    margin-top: -10vw;
+    width: 30vw;
+    height: auto;
+    z-index: 1;
+}
+
+.under-1 {
+    width: 30vw;
+    height: 75vh;
+    
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(176, 121, 212);
+    z-index: 0;
+    animation-name: fadeIn;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+}
+
+.under-2 {
+    width: 30vw;
+    height: 75vh;
+    margin-left:52vw;
+
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(176, 121, 212);
+    z-index: 0;
+    animation-name: fadeIn;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+}
+
+.under-3 {
+    width: 30vw;
+    height: 75vh;
+    margin-top: 90vh;
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(176, 121, 212);
+    z-index: 0;
+    animation-name: fadeIn;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+}
+
+.under-4 {
+    width: 30vw;
+    height: 75vh;
+    margin-top: 90vh;
+    margin-left:52vw;
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(176, 121, 212);
+    z-index: 0;
+    animation-name: fadeIn;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+}
+
+.member-name {
+    font-family: 'Lexend', sans-serif;
+    font-size: 5vh;
+}
+
+.member-desc {
+    font-family: 'Lexend', sans-serif;
+    font-size: 3vh;
+    padding:25px;
+}
+
+.text {
+    text-align: center;
+    background-color: rgb(176, 121, 212);
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      width: 10vh;
+    }
+    100% {
+      opacity: 1;
+      width: 60vh;
+    }
+}

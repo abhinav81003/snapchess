@@ -1,11 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Red+Hat+Display&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Red+Hat+Display&display=swap');
 
 .navbar-container {
     width: 100vw;
     height: 15vh;
     align-items: flex-end;
-    background-color: rgb(255, 164, 164);
+    background-color: #FFFC00;
     display: flex;
     justify-content: space-between;
 }
@@ -16,6 +16,7 @@
     font-family: 'Lexend', sans-serif;
     font-weight: 700;
     margin: 3vh;
+    background-color: #FFFC00;
 
 }
 
@@ -23,10 +24,14 @@
     align-self: flex-end;
     font-family: 'Lexend', sans-serif;
     font-size: 23px;
+    box-sizing: border-box;
     padding: 3vh;
     width: max-content;
     display: flex;
     align-items: center;
+    background-color: #FFFC00;
+
+    height: 100%;
 }
 
 .navbar-right:visited {
@@ -36,7 +41,7 @@
 
 .link {
     text-decoration: none;
-    color:rgb(114, 40, 211);
+    color:rgb(0, 0, 0);
     margin-right: 3vw;
 }
 
@@ -45,7 +50,7 @@
 }
 
 .link:hover {
-    color:rgb(194, 129, 255);
+    color:rgb(0, 44, 167);
 }
 
 .button {
@@ -60,6 +65,7 @@
 }
 
 .button:hover {
-    background-color: rgb(127, 36, 212);
+    background-color: rgb(0, 0, 0);
     color:aliceblue;
+    cursor: pointer;
 }

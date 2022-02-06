@@ -1,19 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Red+Hat+Display&display=swap');
 
+:root {
+  --color-text: rgb(29, 29, 29);
+}
+
 .middle {
+    align-items: center;
+    justify-content: center;
     text-align:center;
     padding: 50px;
-    background-color: rgb(217, 207, 235);
+    background-color: var(--color-text);
     width: 100vw;
+    box-sizing: border-box;
     animation-name: fadeIn;
-    animation-duration: 1.3s;
+    animation-duration: 2.3s;
     animation-timing-function: ease-in-out;
+    overflow-x: hidden;
 }
 
 @keyframes fadeIn {
     0% {
       opacity: 0;
-      width: 90vw;
+      width: 80vw;
     }
     100% {
       opacity: 1;
@@ -23,5 +31,25 @@
 
 .middle-text {
     font-size: 20vh;
+    align-items: center;
+    justify-content: center;
     font-family: 'Lexend', sans-serif;
+    background-color: #FFFC00;
+    border-radius: 30px;
+    color:rgb(0, 0, 0);
+    width: 150vh;
+}
+
+body {
+  background-color: var(--color-text);
+}
+
+.white {
+  color: white;
+}
+
+.highlight {
+  color: rgb(0,0,0);
+  text-decoration: none;
+  /* background-color: #FFFC00; */
 }
