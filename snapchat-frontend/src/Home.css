@@ -21,7 +21,7 @@
 @keyframes fadeInHome {
     0% {
       opacity: 0;
-      width: 50vw;
+      width: 50vw
     }
     100% {
       opacity: 1;
