@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Red+Hat+Display&display=swap');
+
+.navbar-container {
+    width: 100vw;
+    height: 15vh;
+    align-items: flex-end;
+    background-color: rgb(255, 164, 164);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    align-self: flex-start;
+    font-size: 45px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    margin: 3vh;
+
+}
+
+.navbar-right {
+    align-self: flex-end;
+    font-family: 'Lexend', sans-serif;
+    font-size: 23px;
+    padding: 3vh;
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    color:rgb(114, 40, 211);
+    margin-right: 3vw;
+}
+
+.link:visited {
+    text-decoration: none;
+}
+
+.link:hover {
+    color:rgb(194, 129, 255);
+}
+
+.button {
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 23px;
+    padding: 5%;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    width: 20vh;
+}
+
+.button:hover {
+    background-color: rgb(127, 36, 212);
+    color:aliceblue;
+}
