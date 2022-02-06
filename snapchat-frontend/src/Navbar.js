@@ -1,19 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import { Outlet, Link } from "react-router-dom";
 
-function App() {
+function Navbar() {
   return (
     <div className="navbar-container">
         <div className="navbar-left">
-            <a></a>
+            <Link to="/">Snapchess</Link>
         </div>
         <div className="navbar-right"> 
-            <a></a>
-            <a></a>
+            <Link to="/about">About</Link>
+            <Link to="/team">Team</Link>
             <button></button>
         </div>
     </div>
   );
 }
 
-export default App;
+export default Navbar;

@@ -1,25 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import firebase from './util/firebase';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to SnapChess!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home/>} />
+          <Route path="about" element={<About/>} />
+          <Route path="team" element={<Team/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
