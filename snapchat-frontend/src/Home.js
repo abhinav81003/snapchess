@@ -1,8 +1,10 @@
+import './Home.css';
+
 const Home = () => {
     return (  
         <div class="middle">
-            Leap into AR
-        </div>
+            <p class="middle-text">Leap into AR</p>
+        </div> 
     );
 }
  
