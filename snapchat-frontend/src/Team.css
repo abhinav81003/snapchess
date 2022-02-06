@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Red+Hat+Display&display=swap');
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 12vh;
+}
+
+.bottom-row {
+    display: flex;
+    margin: 12vh;
+}
+
+.team-photo {
+    width: 400px;
+    height: auto;
+}
+
+.member-name {
+    font-family: 'Lexend', sans-serif;
+    font-size: 5vh;
+}
+
+.member-desc {
+    font-family: 'Lexend', sans-serif;
+    font-size: 3vh;
+}

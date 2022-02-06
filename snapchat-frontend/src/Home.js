@@ -2,8 +2,8 @@ import './Home.css';
 
 const Home = () => {
     return (  
-        <div class="middle">
-            <p class="middle-text">Leap into AR</p>
+        <div className="middle">
+            <p className="middle-text">Leap into AR</p>
         </div> 
     );
 }

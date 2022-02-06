@@ -5,21 +5,18 @@
     justify-content: center;
     text-align:center;
     padding: 50px;
-    background-color: rgb(217, 207, 235);
     width: 100vw;
-    animation-name: fadeIn;
-    animation-duration: 1.3s;
-    animation-timing-function: ease-in-out;
+    background-color: rgb(217, 207, 235);
 }
 
 @keyframes fadeIn {
     0% {
       opacity: 0;
-      width: 90vw;
+      width: 180vh;
     }
     100% {
       opacity: 1;
-      width: 100vw;
+      width: 150vh;
     }
 }
 
@@ -28,12 +25,11 @@
     align-items: center;
     justify-content: center;
     font-family: 'Lexend', sans-serif;
-<<<<<<< HEAD
     background-color: rgb(127, 36, 212);
     border-radius: 30px;
     color:aliceblue;
     width: 150vh;
+    animation-name: fadeIn;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
 }
-=======
-}
->>>>>>> 1ecbc6a343c66b57f68f0a6892b4f490cbd4d494
