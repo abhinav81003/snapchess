@@ -1,10 +1,11 @@
 import './Home.css';
-
+import { Outlet, Link } from "react-router-dom";
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 
 
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Move(), Sticky());
+
 
 
 const Home = () => {
@@ -20,12 +21,12 @@ const Home = () => {
             <ScrollPage page={1}>
                 <Animator animation={ZoomInScrollOut}>
                 {/* <span style={{ fontSize: "40px" }}>I'm FadeUpScrollOut ✨</span> */}
-                    <img src= {require('./images/chess-123.jpg')} />
+                    <img src= {require('./images/chess-3.png')} />
                 </Animator>
             </ScrollPage>
             <ScrollPage page={2}>
                 <Animator animation={FadeUp}>
-                <span style={{ fontSize: "40px" }}>New Way to Play Chess</span>
+                <span style={{ fontSize: "40px" }}>Change the Way You Play Chess!</span>
                 </Animator>
             </ScrollPage>
             <ScrollPage page={3}>
@@ -39,8 +40,17 @@ const Home = () => {
                 </Animator>
             </ScrollPage>
             <ScrollPage page={5}>
-
+                <Animator animation={FadeUp}>
+                    <span style={{ fontSize: "40px" }}>Learn more about Spectacles! </span>
+                    <a href="https://www.spectacles.com" style={{ fontSize: "40px" }}>🕶️</a>
+                    <br></br>
+                    <br></br>
+                    <span style={{ fontSize: "40px" }}>Learn more about Us! </span>
+                    <Link to="/team" style={{ fontSize: "40px" }}>😎</Link>
+                </Animator>
+                
             </ScrollPage>
+            
         </ScrollContainer>
     );
 }
