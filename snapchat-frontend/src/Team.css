@@ -26,44 +26,46 @@
 .team-photo {
     margin-top: -10vw;
     width: 30vw;
-    height: auto;
+    height: 53vh;
     z-index: 1;
+    align-self: center;
+    animation-name: fadeIn;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
 }
 
 .under-1 {
     width: 30vw;
     height: 75vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
     border-radius: 20px;
     position: absolute;
     background-color: rgb(0, 0, 0);
     z-index: 0;
-    animation-name: fadeIn;
-    animation-duration: 1.3s;
-    animation-timing-function: ease-in-out;
 }
 
 .under-2 {
     width: 30vw;
     height: 75vh;
     margin-left:52vw;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
     background-color: rgb(0, 0, 0);
     z-index: 0;
-    animation-name: fadeIn;
-    animation-duration: 1.3s;
-    animation-timing-function: ease-in-out;
 }
 
 .under-3 {
     width: 30vw;
     height: 75vh;
     margin-top: 3vh;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
     background-color: rgb(0, 0, 0);
     z-index: 0;
-    animation-name: fadeIn;
-    animation-duration: 1.3s;
-    animation-timing-function: ease-in-out;
 }
 
 .under-4 {
@@ -71,13 +73,13 @@
     height: 75vh;
     margin-top: 3vh;
     margin-left:52vw;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
     position: absolute;
     background-color: rgb(0, 0, 0);
     z-index: 0;
-    animation-name: fadeIn;
-    animation-duration: 1.3s;
-    animation-timing-function: ease-in-out;
+   
 }
 
 .member-name {
@@ -103,10 +105,10 @@
 @keyframes fadeIn {
     0% {
       opacity: 0;
-      width: 10vh;
+      height: 30vh;
     }
     100% {
       opacity: 1;
-      width: 40vh;
+      height: 53vh;
     }
 } 

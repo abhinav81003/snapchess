@@ -11,7 +11,7 @@ const Team = () => {
                 
                     <div className="text">
                         <p className="member-name">Abhinav Gupta</p>
-                        <p className="member-desc">CSCI Major at USC</p>
+                        <p className="member-desc">pulCSCI Major at USC</p>
                     </div>
                 </div>
 
