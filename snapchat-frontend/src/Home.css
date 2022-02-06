@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Red+Hat+Display&display=swap');
 
 .middle {
+    align-items: center;
+    justify-content: center;
     text-align:center;
     padding: 50px;
     background-color: rgb(217, 207, 235);
@@ -8,5 +10,11 @@
 
 .middle-text {
     font-size: 20vh;
+    align-items: center;
+    justify-content: center;
     font-family: 'Lexend', sans-serif;
+    background-color: rgb(127, 36, 212);
+    border-radius: 30px;
+    color:aliceblue;
+    width: 150vh;
 }
