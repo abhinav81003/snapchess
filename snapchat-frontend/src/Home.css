@@ -6,6 +6,21 @@
     text-align:center;
     padding: 50px;
     background-color: rgb(217, 207, 235);
+    width: 100vw;
+    animation-name: fadeIn;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      width: 90vw;
+    }
+    100% {
+      opacity: 1;
+      width: 100vw;
+    }
 }
 
 .middle-text {
@@ -13,8 +28,12 @@
     align-items: center;
     justify-content: center;
     font-family: 'Lexend', sans-serif;
+<<<<<<< HEAD
     background-color: rgb(127, 36, 212);
     border-radius: 30px;
     color:aliceblue;
     width: 150vh;
 }
+=======
+}
+>>>>>>> 1ecbc6a343c66b57f68f0a6892b4f490cbd4d494
