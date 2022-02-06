@@ -3,7 +3,7 @@ import './Team.css';
 const Team = () => {
     return (  
         <div>
-            <h1>our team</h1>
+            <h1 class="our-team">our team</h1>
             <div className="top-row">
                 <div className='under-1'>
 
@@ -11,7 +11,7 @@ const Team = () => {
                 
                     <div className="text">
                         <p className="member-name">Abhinav Gupta</p>
-                        <p className="member-desc">Fullstack developer and AI researcher. CSCI Major at USC.</p>
+                        <p className="member-desc">CSCI Major at USC</p>
                     </div>
                 </div>
 

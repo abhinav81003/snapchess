@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Red+Hat+Display&display=swap');
 
-h1 {
+.our-team {
     margin-top: 10vh;
     text-align: center;
     font-size: 6vh;
-    margin-bottom: 18vh;
+    margin-bottom: 25vh;
+    color: white;
 }
 
 .top-row {
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -15,6 +17,7 @@ h1 {
 }
 
 .bottom-row {
+    width: 100vw;
     flex-wrap: wrap;
     display: flex;
     margin: 12vh;
@@ -30,10 +33,9 @@ h1 {
 .under-1 {
     width: 30vw;
     height: 75vh;
-    
     border-radius: 20px;
     position: absolute;
-    background-color: rgb(176, 121, 212);
+    background-color: rgb(0, 0, 0);
     z-index: 0;
     animation-name: fadeIn;
     animation-duration: 1.3s;
@@ -44,10 +46,8 @@ h1 {
     width: 30vw;
     height: 75vh;
     margin-left:52vw;
-
     border-radius: 20px;
-    position: absolute;
-    background-color: rgb(176, 121, 212);
+    background-color: rgb(0, 0, 0);
     z-index: 0;
     animation-name: fadeIn;
     animation-duration: 1.3s;
@@ -57,10 +57,9 @@ h1 {
 .under-3 {
     width: 30vw;
     height: 75vh;
-    margin-top: 90vh;
+    margin-top: 3vh;
     border-radius: 20px;
-    position: absolute;
-    background-color: rgb(176, 121, 212);
+    background-color: rgb(0, 0, 0);
     z-index: 0;
     animation-name: fadeIn;
     animation-duration: 1.3s;
@@ -70,11 +69,11 @@ h1 {
 .under-4 {
     width: 30vw;
     height: 75vh;
-    margin-top: 90vh;
+    margin-top: 3vh;
     margin-left:52vw;
     border-radius: 20px;
     position: absolute;
-    background-color: rgb(176, 121, 212);
+    background-color: rgb(0, 0, 0);
     z-index: 0;
     animation-name: fadeIn;
     animation-duration: 1.3s;
@@ -84,17 +83,21 @@ h1 {
 .member-name {
     font-family: 'Lexend', sans-serif;
     font-size: 5vh;
+    margin-bottom: 0vh;
 }
 
 .member-desc {
     font-family: 'Lexend', sans-serif;
+    color: rgb(167, 167, 167);
     font-size: 3vh;
     padding:25px;
+    margin-top: 0vh;
 }
 
 .text {
     text-align: center;
-    background-color: rgb(176, 121, 212);
+    color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 @keyframes fadeIn {
@@ -104,6 +107,6 @@ h1 {
     }
     100% {
       opacity: 1;
-      width: 60vh;
+      width: 40vh;
     }
-}
+} 

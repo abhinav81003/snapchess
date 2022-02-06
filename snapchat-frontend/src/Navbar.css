@@ -43,6 +43,7 @@
     text-decoration: none;
     color:rgb(0, 0, 0);
     margin-right: 3vw;
+    background-color: #FFFC00;
 }
 
 .link:visited {
@@ -50,7 +51,7 @@
 }
 
 .link:hover {
-    color:rgb(0, 44, 167);
+    color:rgb(255, 255, 255);
 }
 
 .button {
@@ -62,6 +63,7 @@
     border-radius: 30px;
     background-color: white;
     width: 20vh;
+    color: black;
 }
 
 .button:hover {

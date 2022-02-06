@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Red+Hat+Display&display=swap');
 
-div {
-    /* background-color: rgb(217, 207, 235); */
-    font-family: 'Lexend', sans-serif;
+body {
+    background-color: rgb(29, 29, 29);
+    color: white;
 }
 
-h1 {
+.about-class {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lexend', sans-serif;
+    padding-inline: 10vw;
+    box-sizing: border-box;
+}
+
+.about-header {
     font-family: 'Lexend', sans-serif;
     text-align: center;
     font-size: 6vh;
-    margin-bottom: 18vh;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    color: white;
+}
+
+p {
+    font-size: 30px;
 }
