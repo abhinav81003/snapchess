@@ -1,10 +1,11 @@
 import './About.css';
-
+import Card from './Card'
 const About = () => {
     return (  
         <div className="about-class">
-            <h1 class="about-header">about</h1>
-            <p>Simple joys are here to stay...Leap into AR!</p>
+            <h1 className="about-header">about</h1>
+            <Card />
+            {/* <p>Simple joys are here to stay...Leap into AR!</p>
 
             <p>SnapChess! is a fully scaled revamp and simulation of the classical game of chess.</p>
             <p>SnapChess! runs primarily on the Snap Spectacles Physics API. Integrating tap-gesture 
@@ -35,7 +36,7 @@ const About = () => {
                start with others. Regardless of how visually impressive or innovative AR technology becomes, there's no 
                future to be had without the joy and company joy of spending time with those we care about.</p>
 
-            <p>Scan our code and make a move! Leap into SnapChess!</p>
+            <p>Scan our code and make a move! Leap into SnapChess!</p> */}
         </div>
     );
 }
