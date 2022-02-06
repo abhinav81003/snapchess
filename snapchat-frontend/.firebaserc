@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "snapchess-bbee1"
+  },
+  "targets": {
+    "snapchess-bbee1": {
+      "hosting": {
+        "snapchess": [
+          "snapchess"
+        ]
+      }
+    }
   }
 }
