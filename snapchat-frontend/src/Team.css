@@ -2,11 +2,13 @@
 
 .top-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 12vh;
 }
 
 .bottom-row {
+    flex-wrap: wrap;
     display: flex;
     margin: 12vh;
 }
@@ -14,6 +16,49 @@
 .team-photo {
     width: 400px;
     height: auto;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.under-1 {
+    width: 420px;
+    height: 620px;
+    
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(136, 49, 194);
+    z-index: 0;
+}
+
+.under-2 {
+    width: 420px;
+    height: 620px;
+    margin-left:730px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(176, 121, 212);
+    z-index: 2;
+}
+
+.under-3 {
+    width: 420px;
+    height: 620px;
+    margin-top: 200px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(176, 121, 212);
+    z-index: 2;
+}
+
+.under-4 {
+    width: 420px;
+    height: 620px;
+    margin-top: 200px;
+    margin-left:730px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(176, 121, 212);
+    z-index: 2;
 }
 
 .member-name {
@@ -24,4 +69,8 @@
 .member-desc {
     font-family: 'Lexend', sans-serif;
     font-size: 3vh;
+}
+
+.text {
+    margin-left:40px;
 }
